@@ -1,0 +1,77 @@
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*.lcp/*
+*~
+*.bak
+#*.off
+*.old
+*.sc
+.worksheet
+.cache
+*.cache
+.metadata
+.ivy2
+.sbt
+.history
+.cache-main
+.cache-test 
+.cache-tests
+.ensime
+.metadata
+.ensime_cache/
+.cache-*
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+.classpath_nb
+# idea
+.idea
+*.iml
+*.eml
+# emacs
+
+# building
+target
+build
+site
+null
+tmp*
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+
+/bin
+**/.cache
+*/.cache-main
+*/.cache-tests
+*/bin
+
+.lcp
+.lcp/*
+dump.rdb
+
+*/build/
+*/node_modules/
+.bloop
+.metals
+project/.bloop
+/.gradle/
+*/.gradle/
+.gradle/
+.gradle/*
+.bsp/*
+
+scalar.home_IS_UNDEFINED
+package-lock.json
+/.bsp/
+
